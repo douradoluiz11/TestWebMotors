@@ -4,24 +4,15 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
 
+
+
+
+
 public class WebMotorsAPIAction {
 
 
 
-    public String ExecutaGet(String baseURI, String url) {
-
-
-        RestAssured.baseURI = baseURI;
-        RestAssured.port = 80;
-        String get = url;
-
-
-        return get;
-
-
-    }
-
-    public String ValidaResposeGetModel (int statusCode, int makeID, String url) {
+    public String ValidaResposeGetModel (int statusCode, int makeID, String uriBase) {
 
 
         Response response =
@@ -29,7 +20,7 @@ public class WebMotorsAPIAction {
                         .contentType("application/json; charset=UTF-8")
                         .param("MakeID",makeID)
                         .when()
-                        .get("http://desafioonline.webmotors.com.br:80"+ url)
+                        .get(uriBase)
                         .then()
                         .statusCode(statusCode)
                         .contentType("application/json; charset=UTF-8")
@@ -44,7 +35,8 @@ public class WebMotorsAPIAction {
         return resultResponse;
 
     }
-    public String ValidaResposeGetVersion (int statusCode, int makeID, String url) {
+
+    public String ValidaResposeGetVersion (int statusCode, int makeID, String uriBase) {
 
 
         Response response =
@@ -52,7 +44,7 @@ public class WebMotorsAPIAction {
                         .contentType("application/json; charset=UTF-8")
                         .param("ModelID",makeID)
                         .when()
-                        .get("http://desafioonline.webmotors.com.br:80"+ url)
+                        .get(uriBase)
                         .then()
                         .statusCode(statusCode)
                         .contentType("application/json; charset=UTF-8")
@@ -68,7 +60,7 @@ public class WebMotorsAPIAction {
 
     }
 
-    public String ValidaResposeGetVehicles (int statusCode, int makeID, String url) {
+    public String ValidaResposeGetVehicles (int statusCode, int makeID, String uriBase) {
 
 
         Response response =
@@ -76,7 +68,7 @@ public class WebMotorsAPIAction {
                         .contentType("application/json; charset=UTF-8")
                         .param("Page",makeID)
                         .when()
-                        .get("http://desafioonline.webmotors.com.br:80"+ url)
+                        .get(uriBase)
                         .then()
                         .statusCode(statusCode)
                         .contentType("application/json; charset=UTF-8")

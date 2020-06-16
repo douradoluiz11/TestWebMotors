@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18a19742-767a-4713-860e-73a2f9bfa90d" name="Default Changelist" comment="" />
+    <list default="true" id="18a19742-767a-4713-860e-73a2f9bfa90d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/actions/Get.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/actions/WebMotorsAPIAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/actions/WebMotorsAPIAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdef/WebMotorsAPIStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdef/WebMotorsAPIStepDef.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dNFpXwnNiUXv9VE7OBYRqJ33jr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,7 +31,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/workspace/automacao-framework" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../elo-framework" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -33,7 +43,7 @@
       <recent name="C:\Users\luiz.ferreira\workspace\TestWebMotors\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Realizar pesquisa por Marca, Modelo e Versão">
+  <component name="RunManager" selected="Cucumber java.Scenario: Realizar pesquisa por Marca, Modelo e Versão - Por API (1)">
     <configuration name="Feature: WebMotors" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4.5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/features/WebMotors.feature" />
@@ -129,9 +139,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Realizar pesquisa por Marca, Modelo e Versão - Por API (1)" />
         <item itemvalue="Cucumber java.Scenario: Realizar pesquisa por Marca, Modelo e Versão" />
         <item itemvalue="Cucumber java.Feature: WebMotors" />
-        <item itemvalue="Cucumber java.Scenario: Realizar pesquisa por Marca, Modelo e Versão - Por API (1)" />
         <item itemvalue="Cucumber java.Feature: WebMotorsAPI" />
         <item itemvalue="Cucumber java.Scenario: Realizar pesquisa por Marca, Modelo e Versão - Por API" />
       </list>
@@ -155,26 +165,30 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="27" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1592260098952" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1592261714143">
+    <state x="325" y="0" key="CommitChangelistDialog2" timestamp="1592314779374">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1592261714143" />
-    <state width="1323" height="233" key="GridCell.Tab.0.bottom" timestamp="1592284948529">
+    <state x="325" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1592314779374" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1592312538624">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592284948529" />
-    <state width="1323" height="233" key="GridCell.Tab.0.center" timestamp="1592284948529">
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1592312538624" />
+    <state width="1323" height="62" key="GridCell.Tab.0.bottom" timestamp="1592314779396">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1592284948529" />
-    <state width="1323" height="233" key="GridCell.Tab.0.left" timestamp="1592284948529">
+    <state width="1323" height="62" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592314779396" />
+    <state width="1323" height="62" key="GridCell.Tab.0.center" timestamp="1592314779396">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1592284948529" />
-    <state width="1323" height="233" key="GridCell.Tab.0.right" timestamp="1592284948529">
+    <state width="1323" height="62" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1592314779396" />
+    <state width="1323" height="62" key="GridCell.Tab.0.left" timestamp="1592314779396">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="233" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1592284948529" />
+    <state width="1323" height="62" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1592314779396" />
+    <state width="1323" height="62" key="GridCell.Tab.0.right" timestamp="1592314779396">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="62" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1592314779396" />
     <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1592281619652">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -191,10 +205,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1592281619652" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1592284185478">
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1592311569605">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1592284185478" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1592311569605" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1592269858055">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
